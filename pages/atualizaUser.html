@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/css/cadastrar.css">
+
+  <title>Atualiza Usuário</title>
+
+</head>
+<body>
+  <main>
+    <section>
+      <h1>Atualiza Usuário</h1>
+      <form class="formularioCadastrar" data-form>
+        <div class="conteudo-input">
+          <input type="text" placeholder="Nome" required data-nome/>
+          <input type="email" placeholder="Email" required data-email/>
+          <select data-gender class="optionGender">
+            <option value="female">Feminino</option>
+            <option value="male">Masculino</option>
+          </select>
+          <select data-status class="optionStatus">
+            <option value="active">Ativo</option>
+            <option value="inactive">Inativo</option>
+          </select>
+        </div>
+        <div class="botaoAtualizar">
+          <button type="submit" class="botao">Salvar</button>
+          <button type="reset" class="botao">Excluir</button>
+      </form>
+    </section>
+  </main>
+<script type="module" src="../controller/atualizaUser.js"></script>
+</body>
+</html>

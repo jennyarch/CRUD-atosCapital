@@ -1,0 +1,70 @@
+*{
+  font-family: 'Noto Sans TC', sans-serif;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #EAEAEA;
+}
+section{
+  width: 450px;
+  height: 300px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 100px auto 0 auto;
+  padding: 30px;
+}
+h1{
+  font-size: 24px;
+  text-align: center;
+  color: #213435;
+  font-weight: 400;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+.conteudo-input{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+}
+.conteudo-input input{
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #213435;
+}
+.optionGender{
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #213435;
+}
+.optionStatus{
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #213435;
+  color: green
+}
+.botao{
+  padding: 10px 20px;
+  background-color: #213435;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  margin-top: -20px;
+}
+.botaoAtualizar{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
