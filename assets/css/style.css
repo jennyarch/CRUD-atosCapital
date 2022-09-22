@@ -54,6 +54,12 @@ td:nth-child(4){
   10px;
   justify-content: center;
 }
+th:nth-child(1){
+  width: 80px;
+}
+th:nth-child(4){
+  width: 200px;
+}
 .content-table td button{
   border-radius: 5px;
   padding: 2px 8px;
