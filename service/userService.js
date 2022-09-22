@@ -39,7 +39,7 @@ function cadastraUser(name, email, gender, status) {
   })
 }
 function removeUser(id) {
-  return fetch(`https://gorest.co.in/public/v2/users/${id}`, {
+  return fetch(`${url}/${id}`, {
       method: 'DELETE',
       headers: {
         'Authorization': `Bearer ${_token}`
@@ -52,7 +52,7 @@ function removeUser(id) {
   })
 }
 function detalhaUser(id)  {
-  return fetch(`https://gorest.co.in/public/v2/users/${id}`, {
+  return fetch(`${url}/${id}`, {
     headers: {
       'Content-Type' : 'application/json',
       'Authorization': `Bearer ${_token}`
@@ -66,7 +66,7 @@ function detalhaUser(id)  {
   })
 }
 function atualizaUser(id, name, email, gender, status){
-  return fetch(`https://gorest.co.in/public/v2/users/${id}`, {
+  return fetch(`${url}/${id}`, {
       method: 'PUT',
       headers: {
         'Content-Type' : 'application/json',
