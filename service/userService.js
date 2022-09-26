@@ -6,7 +6,7 @@ function listaUsers(){
     headers: {
       'Content-Type' : 'application/json',
       'Authorization': `Bearer ${_token}`,
-      'x-pagination-limit' :'20'
+      'x-pagination-limit' : '20'
     },
   })
   .then(resposta => {
