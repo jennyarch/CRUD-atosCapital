@@ -5,32 +5,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../assets/css/cadastrar.css">
-  <script src="https://kit.fontawesome.com/d206dc121b.js" crossorigin="anonymous"></script>
-
 
   <title>Novo registro</title>
 
 </head>
 <body>
   <main>
-      <div class="theme">
-        <input type="checkbox" class="checkbox" id="chk">
-        <label class="labelMode" for="chk">
-          <i class="fas fa-sun"></i>
-          <i class="fas fa-moon"></i>
-          <div class="ball"></div>
-        </label>
-      </div>
     <section>
       <h1>Novo Registro</h1>
-      
       <form class="formularioCadastrar" data-form>
         <div class="conteudo-input">
           <input type="text" placeholder="Nome" required data-nome />
           <input type="email" placeholder="Email" required data-email/>
           <select data-gender class="optionGender">
-            <option value="Female">Feminino</option>
-            <option value="Male">Masculino</option>
+            <option value="female">Feminino</option>
+            <option value="male">Masculino</option>
           </select>
           <select data-status class="optionStatus">
             <option value="active">Ativo</option>
@@ -42,6 +31,5 @@
     </section>
   </main>
 <script type="module" src="../controller/cadastraUser.js"></script>
-<script src="../script.js"></script>
 </body>
 </html>
