@@ -8,18 +8,14 @@ const criaNovaLinha = (id, name, email, gender) => {
     <td >${email}</td>
     <td >${gender}</td>
     <td>
-      <ul>
-        <li>
+      
           <a href="../pages/atualizaUser.html?id=${id}" >
             <i class="fa-solid fa-pen-to-square"></i>
           </a>
-        </li>
-        <li>
+        
           <button type="button" class="botaoExcluir">
             <i class="fa-solid fa-trash-can"></i>
           </button>
-        </li>
-      </ul>
     </td>
   `
   linhaNovoUser.innerHTML = conteudo

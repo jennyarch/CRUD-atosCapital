@@ -68,7 +68,7 @@ body{
 }
 main{
   padding: 50px;
-  width: 80%;
+  width: 100%;
 }
 .content-link{
   display: flex;
@@ -98,7 +98,7 @@ main{
 .content-table td, th {
   border: 1px solid var(--table-td-th);
   padding: 10px;
-  height: 40px;
+  height: 30px;
   align-items: center;
 }
 .content-table th{
@@ -119,6 +119,7 @@ td:nth-child(5){
   display: flex;
   gap: 10px;
   justify-content: center;
+  height: 50px;
 }
 th:nth-child(1){
   width: 80px;
@@ -145,6 +146,11 @@ ul{
   color: #33adff;
   font-size: 22px;
 }
-/* i{
-  font-size: 22px;
+// Responsivo
+/* @media screen and (max-width: 800px){
+
+  .content-table {
+    width: 60%;
+    background-color: blue;
+  }
 } */

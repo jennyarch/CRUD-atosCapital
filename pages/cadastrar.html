@@ -28,14 +28,24 @@
         <div class="conteudo-input">
           <input type="text" placeholder="Nome" required data-nome />
           <input type="email" placeholder="Email" required data-email/>
-          <select data-gender class="optionGender">
-            <option value="Female">Feminino</option>
-            <option value="Male">Masculino</option>
-          </select>
-          <select data-status class="optionStatus">
-            <option value="active">Ativo</option>
-            <option value="inactive">Inativo</option>
-          </select>
+          <div class="content-options">
+            <div class="gender">
+              <label for="">Gênero</label>
+              <select data-gender>
+                <option>Selecione</option>
+                <option value="Female">Feminino</option>
+                <option value="Male">Masculino</option>
+              </select>
+            </div>
+            <div class="status">
+              <label for="">Status</label>
+              <select data-status>
+                <option>Selecione</option>
+                <option value="active">Ativo</option>
+                <option value="inactive">Inativo</option>
+              </select>
+            </div>
+          </div>
         </div>
         <button type="submit" class="botao">Cadastrar</button>
       </form>

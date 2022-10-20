@@ -3,12 +3,10 @@
   --title: #213435;
   --button-bg: #213435;
 }
-
 :root .dark {
   --primary: #232c35;
   --title: #fff;
   --button-bg: #256D85;
-
 }
 *{
   font-family: 'Noto Sans TC', sans-serif;
@@ -99,18 +97,23 @@ form{
   margin-bottom: 10px;
   border: 1px solid #213435;
 }
-.optionGender{
-  padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  border: 1px solid #213435;
+.content-options{
+  display:flex;
+  justify-content: space-around;
 }
-.optionStatus{
+.content-options label{
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--title);
+}
+.content-options select{
+  width: 220px;
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 10px;
   border: 1px solid #213435;
-  color: green
+  color: #213435;
+
 }
 .botao{
   padding: 10px 20px;
